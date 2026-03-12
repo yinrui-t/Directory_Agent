@@ -1,15 +1,3 @@
-"""
-gui.py  —  Community Directory AI Agent  (Desktop GUI)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Dark dashboard GUI. Connects to server.py via MCP.
-
-Run:
-    python gui.py
-
-Requires:
-    pip install mcp requests dnspython python-dotenv ollama
-"""
-
 import asyncio
 import json
 import os
@@ -24,7 +12,7 @@ from mcp.client.stdio import stdio_client
 
 load_dotenv()
 
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "granite4:350m ")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3.5:2b")
 
 # ─────────────────────────────────────────────────────────
 # COLOURS + FONTS
@@ -478,9 +466,6 @@ class MCPBridge:
             final = resp["message"]["content"]
             self._msgs.append(resp["message"])
 
-            # ── Override Ollama reply with real tool results ─────────
-            # Priority: update > verify > validate
-            # (verify must beat validate so "search online" after a prior validate works)
             if _update_result is not None:
                 if _update_result.get("success") and _update_result.get("confirmed_in_db"):
                     field = _update_result.get("field", "field")
