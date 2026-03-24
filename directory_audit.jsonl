@@ -1,0 +1,9 @@
+{"ts": "2026-03-18T09:28:45.566804", "id": 102, "name": "WIT", "action": "validate", "detail": {"status": "valid", "score": 100, "issues": []}}
+{"ts": "2026-03-18T09:28:53.788323", "id": 102, "name": "WIT", "action": "validate", "detail": {"status": "valid", "score": 100, "issues": []}}
+{"ts": "2026-03-18T12:03:28.537787", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
+{"ts": "2026-03-18T12:03:38.758196", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
+{"ts": "2026-03-18T12:04:02.101036", "id": 102, "name": "WIT", "action": "validate", "detail": {"status": "valid", "score": 100, "issues": []}}
+{"ts": "2026-03-18T12:04:19.860953", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
+{"ts": "2026-03-18T12:04:31.320038", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
+{"ts": "2026-03-18T12:04:51.697006", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
+{"ts": "2026-03-18T12:05:10.547039", "id": 77, "name": "Healthcare New Zealand", "action": "validate", "detail": {"status": "review", "score": 75, "issues": ["email: no MX record for 'healcarenz.co.nz' \u2014 domain may be defunct"]}}
